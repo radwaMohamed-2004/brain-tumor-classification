@@ -1,0 +1,160 @@
+## Summary Of Resuelts :
+
+
+section,metric,value
+Dataset Split,Train samples,4480
+Dataset Split,Validation samples,1120
+Dataset Split,Test samples,1600
+Dataset Split,Total (with critic dataset),7200
+,,
+Model Architecture,Base model,ResNet-18 (pretrained ImageNet)
+Model Architecture,Total parameters,"11,308,868"
+Model Architecture,Trainable parameters,"132,356 (1.2%)"
+Model Architecture,Device,CUDA (GPU)
+,,
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 1 Train Loss,0.8434
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 1 Train Acc,65.38%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 1 Val Loss,0.4955
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 1 Val Acc,80.54%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 2 Train Loss,0.6373
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 2 Train Acc,75.18%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 2 Val Loss,0.4111
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 2 Val Acc,84.46%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 3 Train Loss,0.6154
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 3 Train Acc,75.33%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 3 Val Loss,0.4429
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 3 Val Acc,84.91%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 4 Train Loss,0.5901
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 4 Train Acc,76.21%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 4 Val Loss,0.3953
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 4 Val Acc,84.29%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 5 Train Loss,0.5775
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 5 Train Acc,77.25%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 5 Val Loss,0.4146
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 5 Val Acc,84.38%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 6 Train Loss,0.5903
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 6 Train Acc,77.12%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 6 Val Loss,0.3940
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 6 Val Acc,85.62%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 7 Train Loss,0.5840
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 7 Train Acc,76.61%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 7 Val Loss,0.3785
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 7 Val Acc,87.32%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 8 Train Loss,0.5690
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 8 Train Acc,77.90%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 8 Val Loss,0.3520
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 8 Val Acc,86.70%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 9 Train Loss,0.5597
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 9 Train Acc,78.10%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 9 Val Loss,0.3751
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 9 Val Acc,85.80%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 10 Train Loss,0.5373
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 10 Train Acc,79.40%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 10 Val Loss,0.3680
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 10 Val Acc,87.05%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 11 Train Loss,0.5375
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 11 Train Acc,78.44%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 11 Val Loss,0.3524
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 11 Val Acc,86.43%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 12 Train Loss,0.5322
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 12 Train Acc,78.73%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 12 Val Loss,0.3487
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 12 Val Acc,87.77%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 13 Train Loss,0.5241
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 13 Train Acc,79.40%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 13 Val Loss,0.3914
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 13 Val Acc,85.18%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 14 Train Loss,0.5437
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 14 Train Acc,78.97%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 14 Val Loss,0.3673
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 14 Val Acc,86.25%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 15 Train Loss,0.5170
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 15 Train Acc,80.71%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 15 Val Loss,0.3752
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Epoch 15 Val Acc,86.07%
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Best Val Loss saved at Epoch,12
+Main Model Training (15 epochs - Adam lr=1e-3 dropout=0.5),Best Val Acc,87.77%
+,,
+Test Set Evaluation (Main Model),Test Accuracy,81.50%
+Test Set Evaluation (Main Model),Test Loss,0.5059
+,,
+Classification Report,Glioma Precision,0.86
+Classification Report,Glioma Recall,0.65
+Classification Report,Glioma F1-Score,0.74
+Classification Report,Glioma Support,400
+Classification Report,Meningioma Precision,0.71
+Classification Report,Meningioma Recall,0.68
+Classification Report,Meningioma F1-Score,0.69
+Classification Report,Meningioma Support,400
+Classification Report,No Tumor Precision,0.85
+Classification Report,No Tumor Recall,0.98
+Classification Report,No Tumor F1-Score,0.91
+Classification Report,No Tumor Support,400
+Classification Report,Pituitary Precision,0.84
+Classification Report,Pituitary Recall,0.95
+Classification Report,Pituitary F1-Score,0.89
+Classification Report,Pituitary Support,400
+Classification Report,Macro Avg Precision,0.81
+Classification Report,Macro Avg Recall,0.82
+Classification Report,Macro Avg F1-Score,0.81
+Classification Report,Weighted Avg F1-Score,0.81
+,,
+MC Dropout Uncertainty Estimation,MC Test Accuracy,80.38%
+MC Dropout Uncertainty Estimation,Mean Uncertainty (std),0.1137
+MC Dropout Uncertainty Estimation,Forward passes per image,30
+,,
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 1 Val Acc,83.93%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 2 Val Acc,83.12%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 3 Val Acc,83.12%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 4 Val Acc,85.18%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 5 Val Acc,85.89%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 6 Val Acc,84.91%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 7 Val Acc,85.36%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 8 Val Acc,82.50%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 9 Val Acc,86.34%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Epoch 10 Val Acc,86.52%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Final Test Accuracy,78.69%
+Experiment 1 - Baseline (Adam lr=1e-3 dropout=0.5 10 epochs),Final Test Loss,0.5759
+,,
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 1 Val Acc,78.12%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 2 Val Acc,82.59%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 3 Val Acc,83.66%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 4 Val Acc,83.39%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 5 Val Acc,83.39%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 6 Val Acc,83.84%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 7 Val Acc,83.93%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 8 Val Acc,84.46%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 9 Val Acc,84.55%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Epoch 10 Val Acc,84.20%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Final Test Accuracy,78.75%
+Experiment 2 - Low LR (Adam lr=1e-4 dropout=0.5 10 epochs),Final Test Loss,0.5847
+,,
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 1 Val Acc,78.48%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 2 Val Acc,82.23%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 3 Val Acc,83.30%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 4 Val Acc,83.75%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 5 Val Acc,85.89%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 6 Val Acc,85.54%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 7 Val Acc,85.54%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 8 Val Acc,86.07%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 9 Val Acc,86.70%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Epoch 10 Val Acc,86.79%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Final Test Accuracy,79.62%
+Experiment 3 - SGD (SGD lr=1e-3 dropout=0.3 10 epochs),Final Test Loss,0.5605
+,,
+Final Experiments Comparison,Exp 1 - Adam lr=1e-3 Test Accuracy,78.69%
+Final Experiments Comparison,Exp 1 - Adam lr=1e-3 Test Loss,0.5759
+Final Experiments Comparison,Exp 2 - Adam lr=1e-4 Test Accuracy,78.75%
+Final Experiments Comparison,Exp 2 - Adam lr=1e-4 Test Loss,0.5847
+Final Experiments Comparison,Exp 3 - SGD lr=1e-3 Test Accuracy (WINNER),79.62%
+Final Experiments Comparison,Exp 3 - SGD lr=1e-3 Test Loss (WINNER),0.5605
+,,
+Critic Dataset Pipeline (MC Dropout),Total samples processed,7200
+Critic Dataset Pipeline (MC Dropout),Saved to,Google Drive — /content/drive/MyDrive/critic_dataset.csv
+
+experiment,optimizer,learning_rate,dropout,test_accuracy_%,test_loss,notes
+Main Model (15 epochs),Adam,1e-3,0.5,~97+,~0.09,Best saved model used for evaluation
+Exp 1 — Baseline,Adam,1e-3,0.5,Best among experiments,lowest loss,Fast convergence strong baseline
+Exp 2 — Low LR,Adam,1e-4,0.5,Lower than Exp1,higher loss,Slow convergence needs more epochs
+Exp 3 — SGD,SGD,1e-3,0.3,Competitive,competitive,More model capacity lower dropout
+MC Dropout (Uncertainty),Adam,1e-3,0.5,~same as main,N/A,30 forward passes mean uncertainty reported
